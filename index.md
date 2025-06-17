@@ -53,6 +53,14 @@ For your first milestone, describe what your project is and how you plan to buil
 - Challenges you're facing and solving in your future milestones
 - What your plan is to complete your project
 
+# Starter Project - Retro Arcade Console
+
+**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CaCazFBhYKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+In the starter project, I created a retro arcade console. First, I soldered on the LED displays which would be the screen and score display. Then, I soldered the USB port to be able to change the data in the microcontroller. Then, I soldered on the buttons for input. Next I attached the battery pack to the back case, trimmed the wires, and attached the wires to allow for power. I added the capicator and cut off the extra metal since it stuck out very far. The switch was placed between the power and the rest of the circuit to be able ot turn the power on and off. Finally, I added a vibrator to add a new effect. When creating this project I learn't how to sauter, desauter, and splice wires.
+
 # Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
 
