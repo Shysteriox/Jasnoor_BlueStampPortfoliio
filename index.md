@@ -59,7 +59,15 @@ For your first milestone, describe what your project is and how you plan to buil
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CaCazFBhYKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+
+Description:
 In the starter project, I created a retro arcade console. First, I soldered on the LED displays which would be the screen and score display. Then, I soldered the USB port to be able to change the data in the microcontroller. Then, I soldered on the buttons for input. Next I attached the battery pack to the back case, trimmed the wires, and attached the wires to allow for power. I added the capicator and cut off the extra metal since it stuck out very far. The switch was placed between the power and the rest of the circuit to be able ot turn the power on and off. Finally, I added a vibrator to add a new effect. When creating this project I learn't how to sauter, desauter, and splice wires.
+
+Challenges:
+My biggest challenges were that I had to restart the starter project twice. The first time I accidently melted the switch with the soldering gun while working on soldering the wires. The switch was already solered on the board and wouldn't budge even after desoldering. The second time I had placed the displays upside down and so the polarity of the displays got messed up. The displays also wouldn't get desoldered after an hour of trying. On the third attempt, I finally finished the project.
+
+Next Steps:
+My next steps will be to understand how the parts for my main project work and how I can use them to make my wrist rehabilitation device. Then, I will have to find a way to accuratly measure the angle of the device
 
 # Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
