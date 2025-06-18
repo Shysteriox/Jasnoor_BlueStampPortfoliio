@@ -1,16 +1,18 @@
+<!--
 # Wrist Rehabilitation Device
 Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!
-
+-->
+<!---
 You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
 ```HTML 
-<!--- This is an HTML comment in Markdown -->
-<!--- Anything between these symbols will not render on the published site -->
+This is an HTML comment in Markdown
+Anything between these symbols will not render on the published site
 ```
-
+-->
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
 | Jas S | Basis Independent Fremont | Mechanical Engineering | Incoming Junior
-
+<!---
 **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
 ![Headstone Image](logo.svg)
@@ -52,13 +54,13 @@ For your first milestone, describe what your project is and how you plan to buil
 - Technical progress you've made so far
 - Challenges you're facing and solving in your future milestones
 - What your plan is to complete your project
-
+-->
 # Starter Project - Retro Arcade Console
-
+<!--
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CaCazFBhYKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
+-->
 
 Description:
 In the starter project, I created a retro arcade console. First, I soldered on the LED displays which would be the screen and score display. Then, I soldered the USB port to be able to change the data in the microcontroller. Then, I soldered on the buttons for input. Next I attached the battery pack to the back case, trimmed the wires, and attached the wires to allow for power. I added the capicator and cut off the extra metal since it stuck out very far. The switch was placed between the power and the rest of the circuit to be able ot turn the power on and off. Finally, I added a vibrator to add a new effect. When creating this project I learn't how to sauter, desauter, and splice wires.
@@ -68,7 +70,7 @@ My biggest challenges were that I had to restart the starter project twice. The 
 
 Next Steps:
 My next steps will be to understand how the parts for my main project work and how I can use them to make my wrist rehabilitation device. Then, I will have to find a way to accuratly measure the angle of the device
-
+<!--
 # Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
 
@@ -105,3 +107,4 @@ One of the best parts about Github is that you can view how other people set up 
 - [Example 3](https://arneshkumar.github.io/arneshbluestamp/)
 
 To watch the BSE tutorial on how to create a portfolio, click here.
+-->
