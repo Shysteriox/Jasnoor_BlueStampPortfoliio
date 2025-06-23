@@ -41,34 +41,28 @@ For your second milestone, explain what you've worked on since your previous mil
 - What has been surprising about the project so far
 - Previous challenges you faced that you overcame
 - What needs to be completed before your final milestone 
-
+-->
 # First Milestone
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fmthsALyXC0?si=sA5ARxU7Pw9Ax2rS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CaCazFBhYKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-My First milestone was to be able to accurately receive data with a high accuracy. For example, I had to find the angle of the bend in the flex sensor:
+My First milestone was to be able to accurately receive data fromt he flex sensor with a high accuracy. For example, I had to find the angle of the bend in the flex sensor:
 (FlexCircuit)
 
 Description:
 So far, I've understood how the flex sensor works and how the accelrometer works. However, I've only identified how to use the flex sensor and receive an accurate angle. To do that I plotted the data I received from bending the flex sensor at a certain angle. Below is the function that I created from the data:
-y1 = m * (a * x1 - b) + c1 * cos(f1 * x1 + p1)+ c2 * cos(f2 * x1 + p2) + c3 * cos(f3 * x1 + p3) + c4 * cos(f4 * x4 + p4) + c5 * cos(f5 * x1 + p5) + c6 * cos(f6 * x1 + p6) + c7 * cos(f7 * x1 + p7) + c8 * cos(f8 * x1 + p8)
 Graph:
-
+(Graph)
+y1 = m * (a * x1 - b) + c1 * cos(f1 * x1 + p1)+ c2 * cos(f2 * x1 + p2) + c3 * cos(f3 * x1 + p3) + c4 * cos(f4 * x4 + p4) + c5 * cos(f5 * x1 + p5) + c6 * cos(f6 * x1 + p6) + c7 * cos(f7 * x1 + p7) + c8 * cos(f8 * x1 + p8)
 I used this equation so that the graph was fit to my data very tightly. This makes it so that I have a 99.85% accuracy relative to my data. This means that it isn't 99.85% accurate to the actual angle but the angles that I measured instead. I did this because I was pretty confident with my measurements as I took around 50 measurements.
 
 Challenges:
 Some challenges I faced were identifying how to make an equation that matches it. Once I learned about using C * cos (f * x + p) I added more until the acccuracy reached its highest. Another challenge I faced was when taking measurements, the sensor would return values that don't make any sense that are way too high ot low. To solve this, I took many measurements and averaged them. I also had taken the average of the last ten valeus when actually writing the code to exclude outliers and make it more accurate.
 
 Next Steps:
+Next, I want to find a way to use the accelerometer and then transfer the data from both sensors by bluetooth.
 
 
-For your first milestone, describe what your project is and how you plan to build it. You can include:
-- An explanation about the different components of your project and how they will all integrate together
-- Technical progress you've made so far
-- Challenges you're facing and solving in your future milestones
-- What your plan is to complete your project
--->
 # Starter Project - Retro Arcade Console
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HoTiaGMx5EQ?si=7KrHkXm_49cLGxsC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
