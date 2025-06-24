@@ -29,20 +29,28 @@ For your final milestone, explain the outcome of your project. Key details to in
 - What you hope to learn in the future after everything you've learned at BSE
 
 
-
+-->
 # Second Milestone
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+(FinalCircuit)
+
+Description:
+I wanted to make it so that the data was easily accesible. I started looking for options to make it a website. I found a website that would be able to do that called adafruit.io. I made the webite include an output for each value with timestamps and a light that detects if the user is bending their wrist at a bad angle or not. I will also eventually add the vibration sensors to help people use it weithout the website. The website will only be for longer term data and attempting to identify long-term improvement. 
+
 Challenges:
-While I was trying to install bluetooth, an issue arose where the sensor would disconnect itself after 5 seconds. To solve this I decided to transfer over to using Adafruit IO which is a website. To do this I required a wifi connection and to set up the data receving on the website. However, there was a data rate limit.
+Whenever I would send data to the website, it would exceed the limit for how much data could be processed. Due to this, Adafruit IO would ban me for a short period of time. To solve this I used millis() which counts how much time has elapsed since the code started running. By doing this, I was able to identify how to make it use the most amount of data I could without gettting banned.
+
+Next Steps:
+I need to still add the vibration and speakers to alert the user, sew it all onto the glove, and soldering it all on the final breadboard.
+
 For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
 - Technical details of what you've accomplished and how they contribute to the final goal
 - What has been surprising about the project so far
 - Previous challenges you faced that you overcame
 - What needs to be completed before your final milestone 
--->
+
 # First Milestone
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fmthsALyXC0?si=sA5ARxU7Pw9Ax2rS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -61,7 +69,7 @@ Challenges:
 Some challenges I faced were identifying how to make an equation that matches it. Once I learned about using C * cos (f * x + p) I added more until the acccuracy reached its highest. Another challenge I faced was when taking measurements, the sensor would return values that don't make any sense that are way too high ot low. To solve this, I took many measurements and averaged them. I also had taken the average of the last ten valeus when actually writing the code to exclude outliers and make it more accurate.
 
 Next Steps:
-Next, I want to find a way to use the accelerometer and then transfer the data from both sensors by bluetooth.
+Next, I want to find a way to use the accelerometer and then transfer the data from both sensors by Wifi.
 
 
 # Starter Project - Retro Arcade Console
