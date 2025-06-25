@@ -57,10 +57,11 @@ So far, I've understood how the flex sensor works and how the accelerometer work
 ![Headstone Image](Graph)
 
 y1 = m * (a * x1 - b) + c1 * cos(f1 * x1 + p1)+ c2 * cos(f2 * x1 + p2) + c3 * cos(f3 * x1 + p3) + c4 * cos(f4 * x4 + p4) + c5 * cos(f5 * x1 + p5) + c6 * cos(f6 * x1 + p6) + c7 * cos(f7 * x1 + p7) + c8 * cos(f8 * x1 + p8)
+
 I used this equation so that the graph would fit my data very tightly. This makes it so that I have a 99.85% accuracy relative to my data. This means that it isn't 99.85% accurate to the actual angle, but rather the angles that I measured. I did this because I was pretty confident with my measurements, as I took around 50 measurements.
 
 Challenges:
-Some challenges I faced were identifying how to make an equation that matches it. Once I learned about using C * cos (f * x + p), I added more until the accuracy reached its highest. Another challenge I faced was when taking measurements, the sensor would return values that don't make any sense, that are way too high ot low. To solve this, I took many measurements and averaged them. I also took the average of the last ten values when writing the code to exclude outliers and make it more accurate.
+Some challenges I faced were identifying how to make an equation that matches it. Once I learned about using C * cos (f * x + p), I added more until the accuracy reached its highest. Another challenge I faced was when taking measurements, the sensor would return values that don't make any sense, that are way too high ot low. To solve this, I took many measurements to reduce experimental error. I also took the average of the last ten values when writing the code to exclude outliers and make it more accurate.
 
 Next Steps:
 Next, I want to find a way to use the accelerometers to identify the angles between them. Then, I would like to transfer the data from both sensors via Wifi.
