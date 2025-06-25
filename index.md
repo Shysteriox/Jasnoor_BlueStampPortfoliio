@@ -34,7 +34,7 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-(FinalCircuit.jpg)
+![Headstone Image](FinalCircuit)
 
 Description:
 I wanted to make it so that the data was easily accesible. I started looking for options to make it a website. I found a website that would be able to do that called adafruit.io. I made the webite include an output for each value with timestamps and a light that detects if the user is bending their wrist at a bad angle or not. I will also eventually add the vibration sensors to help people use it weithout the website. The website will only be for longer term data and attempting to identify long-term improvement. 
