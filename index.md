@@ -1,4 +1,5 @@
 <!--
+
 # Wrist Rehabilitation Device
 Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and pique their interest in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!
 You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
@@ -6,13 +7,21 @@ You should comment out all portions of your portfolio that you have not complete
 This is an HTML comment in Markdown
 Anything between these symbols will not render on the published site
 ```
+
 -->
+
 | Jas S. | Basis Independent Fremont | Mechanical Engineering | Incoming Junior|
+
 <!---
+
 **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
+
 -->
+
 (JasnoorS.HEIC)
+
 <!---
+
 # Final Milestone
 
 
@@ -28,6 +37,7 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 
 -->
+
 # Second Milestone
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -80,7 +90,8 @@ Challenges:
 My biggest challenge was that I had to restart the starter project twice. The first time I accidentally melted the switch with the soldering gun while working on soldering the wires. The switch was already soldered on the board and wouldn't budge even after desoldering. The second time, I had placed the displays upside down,n and so the polarity of the displays got messed up. The displays also wouldn't get desoldered after an hour of trying. On the third attempt, I finally finished the project.
 
 Next Steps:
-My next steps will be to understand how the parts for my main project work and how I can use them to make my wrist rehabilitation device. Then, I will have to find a way to accurately measure the angle of the device.e
+My next steps will be to understand how the parts for my main project work and how I can use them to make my wrist rehabilitation device. Then, I will have to find a way to accurately measure the angle of the device.
+
 <!-- 
 
 # Code
@@ -116,6 +127,7 @@ One of the best parts about GitHub is that you can view how other people set up 
 - [Example 3](https://arneshkumar.github.io/arneshbluestamp/)
 
 To watch the BSE tutorial on how to create a portfolio, click here.
+
 -->
 
 
