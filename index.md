@@ -49,8 +49,8 @@ I need to still add the vibration and speakers to alert the user, sew it all ont
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fmthsALyXC0?si=sA5ARxU7Pw9Ax2rS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-My First milestone was to be able to accurately receive data fromt he flex sensor with a high accuracy. For example, I had to find the angle of the bend in the flex sensor:
-(FlexCircuit)
+My first milestone was to be able to accurately receive data fromt he flex sensor with a high accuracy. For example, I had to find the angle of the bend in the flex sensor:
+![Headstone Image](FlexCircuit)
 
 Description:
 So far, I've understood how the flex sensor works and how the accelrometer works. However, I've only identified how to use the flex sensor and receive an accurate angle. To do that I plotted the data I received from bending the flex sensor at a certain angle. Below is the function that I created from the data:
