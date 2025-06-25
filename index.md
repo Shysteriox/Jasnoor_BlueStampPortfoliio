@@ -17,7 +17,7 @@ Anything between these symbols will not render on the published site
 
 -->
 
-![Headstone Image](./JasnoorS.HEIC)
+![Headstone Image](./JasnoorS_(2).jpg)
 
 <!--
 
