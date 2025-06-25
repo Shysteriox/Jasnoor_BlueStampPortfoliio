@@ -12,15 +12,15 @@ Anything between these symbols will not render on the published site
 
 | Jas S. | Basis Independent Fremont | Mechanical Engineering | Incoming Junior|
 
-<!---
+<!--
 
 **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
 -->
 
-(JasnoorS.HEIC)
+![Headstone Image](JasnoorS.HEIC)
 
-<!---
+<!--
 
 # Final Milestone
 
