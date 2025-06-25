@@ -48,11 +48,14 @@ I need to still add the vibration and speakers to alert the user, sew it all ont
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fmthsALyXC0?si=sA5ARxU7Pw9Ax2rS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 My first milestone was to be able to accurately receive data from the flex sensor with high accuracy. For example, I had to find the angle of the bend in the flex sensor:
+
 ![Headstone Image](FlexCircuit)
 
 Description:
 So far, I've understood how the flex sensor works and how the accelerometer works. However, I've only identified how to use the flex sensor and receive an accurate angle. To do that, I plotted the data I received from bending the flex sensor at a certain angle. Below is the function that I created from the data:
+
 ![Headstone Image](Graph)
+
 y1 = m * (a * x1 - b) + c1 * cos(f1 * x1 + p1)+ c2 * cos(f2 * x1 + p2) + c3 * cos(f3 * x1 + p3) + c4 * cos(f4 * x4 + p4) + c5 * cos(f5 * x1 + p5) + c6 * cos(f6 * x1 + p6) + c7 * cos(f7 * x1 + p7) + c8 * cos(f8 * x1 + p8)
 I used this equation so that the graph would fit my data very tightly. This makes it so that I have a 99.85% accuracy relative to my data. This means that it isn't 99.85% accurate to the actual angle, but rather the angles that I measured. I did this because I was pretty confident with my measurements, as I took around 50 measurements.
 
