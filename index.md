@@ -42,7 +42,7 @@ For your final milestone, explain the outcome of your project. Key details to in
 <iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <figure>
-  ![Headstone Image](FinalCircuit)
+  <img src="FinalCircuit" width="400" height="530">
   <figcaption>This is an image of my circuit so far.</figcaption>
 </figure>
 
@@ -66,14 +66,14 @@ I need to still add the vibration and speakers to alert the user, sew it all ont
 My first milestone was to be able to accurately receive data from the flex sensor with high accuracy. For example, I had to find the angle of the bend in the flex sensor:
 
 <figure>
-  ![Headstone Image](FlexCircuit)
+  <img src="FlexCircuit" width="400" height="530">
   <figcaption>This is an image of my circuit so far.</figcaption>
 </figure>
 
 So far, I've understood how the flex sensor works and how the accelerometer works. However, I've only identified how to use the flex sensor and receive an accurate angle. To do that, I plotted the data I received from bending the flex sensor at a certain angle. Below is the function and graph that I created from the data:
 
 <figure>
-  ![Headstone Image](Graph)
+  <img src="Graph" width="400" height="530">
   <figcaption>This is my graph of data received on the X-axis and the angle on the Y-axis.</figcaption>
 </figure>
 
