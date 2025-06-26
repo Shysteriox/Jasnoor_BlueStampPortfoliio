@@ -41,7 +41,10 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-![Headstone Image](FinalCircuit)
+<figure>
+  ![Headstone Image](FinalCircuit)
+  <figcaption>This is an image of my circuit so far.</figcaption>
+</figure>
 
 **Description:**
 I have installed two 9-axis IMUs. One was installed at the side of the hand, and one was installed at the side of the forearm. I did this to be able to differentiate linear movement from wrist movement. If there was a difference between the two sensors, they would need to have moved their wrist, and if not, they just moved their arm along. I wanted to ensure that the data was easily accessible. I began searching for options to create a website. I found a website that would be able to do that called adafruit.io. I made the website include an output for each value with timestamps and a light that detects if the user is bending their wrist at a bad angle or not. I will also eventually add the vibration sensors to help people use it without the website. The website will only be used for long-term data collection and the identification of long-term improvement. I made the website public, making it so anyone can access it with the link and see the data.
@@ -62,11 +65,17 @@ I need to still add the vibration and speakers to alert the user, sew it all ont
 
 My first milestone was to be able to accurately receive data from the flex sensor with high accuracy. For example, I had to find the angle of the bend in the flex sensor:
 
-![Headstone Image](FlexCircuit)
+<figure>
+  ![Headstone Image](FlexCircuit)
+  <figcaption>This is an image of my circuit so far.</figcaption>
+</figure>
 
 So far, I've understood how the flex sensor works and how the accelerometer works. However, I've only identified how to use the flex sensor and receive an accurate angle. To do that, I plotted the data I received from bending the flex sensor at a certain angle. Below is the function and graph that I created from the data:
 
-![Headstone Image](Graph)
+<figure>
+  ![Headstone Image](Graph)
+  <figcaption>This is my graph of data received on the X-axis and the angle on the Y-axis.</figcaption>
+</figure>
 
 $y = m * (a * x - b) + \sum_{i=1}^8 ci * cos(fi * x + pi)$
 
@@ -83,7 +92,10 @@ Next, I want to find a way to use the accelerometers to identify the angles betw
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HoTiaGMx5EQ?si=7KrHkXm_49cLGxsC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<img src="81qZPYhThuS.webp" width="400" height="550">
+<figure>
+  <img src="81qZPYhThuS.webp" width="400" height="550">
+  <figcaption>This is an image of an example retro arcade console.</figcaption>
+</figure>
 
 **Description:**
 In the starter project, I created a retro arcade console. First, I soldered on the LED displays, which would be the screen and score display. Then, I soldered the USB port to be able to change the data in the microcontroller. Then, I soldered on the buttons for input. Next, I attached the battery pack to the back case, trimmed the wires, and attached the wires to allow for power. I added the capacitor and cut off the extra metal since it stuck out very far. The switch was placed between the power and the rest of the circuit to be able ot turn the power on and off. Finally, I added a vibrator to add a new effect. When creating this project, I learned how to sauter, desauter, and splice wires.
