@@ -43,8 +43,7 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 <figure>
   <img src="FinalCircuit">
-  <figcaption> This is an image of my circuit so far.</figcaption><br/>
- 
+  <figcaption> This is an image of my circuit with two new accelerometers with the previously existing flex sensor wiring.</figcaption><br/>
 </figure>
 
 **Description:**
@@ -68,14 +67,14 @@ My first milestone was to be able to accurately receive data from the flex senso
 
 <figure>
   <img src="FlexCircuit">
-  <figcaption>This is an image of my circuit so far.</figcaption>
+  <figcaption>This is an image of my circuit, including a flex sensor and basic wiring to the ESP-32</figcaption>
 </figure>
 
 So far, I've understood how the flex sensor works and how the accelerometer works. However, I've only identified how to use the flex sensor and receive an accurate angle. To do that, I plotted the data I received from bending the flex sensor at a certain angle. Below is the function and graph that I created from the data:
 
 <figure>
   <img src="Graph">
-  <figcaption>This is my graph of data received on the X-axis and the angle on the Y-axis.</figcaption>
+  <figcaption>This is my graph of data received from flex sensor on the X-axis and the angle on the Y-axis.</figcaption>
 </figure>
 
 $y = m * (a * x - b) + \sum_{i=1}^8 ci * cos(fi * x + pi)$
