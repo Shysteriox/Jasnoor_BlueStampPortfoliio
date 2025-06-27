@@ -28,6 +28,15 @@ Anything between these symbols will not render on the published site
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+**Description:**
+I have added vibration motors, a 16-LED ring, and an arm sleeve. The vibration motors and the LED ring will be used in a way to assist the user in identifying where the issue is coming from. The vibration motors will buzz on that side of the hand, and the LED ring will point in the direction of the issue. The arm sleeve is used to move the parts onto the arm, where it feels less heavy on the user's wrist, and to make it not all clumped together.
+
+**Challenges:**
+
+
+**Next Steps:**
+
+
 For your final milestone, explain the outcome of your project. Key details to include are:
 - What you've accomplished since your previous milestone
 - What were your biggest challenges and triumphs at BSE
@@ -39,7 +48,7 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 # Second Milestone
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-1kVBbLLWTg?si=fBIiYLgC1VN-_PGI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <figure>
   <img src="FinalCircuit">
@@ -52,7 +61,7 @@ For your final milestone, explain the outcome of your project. Key details to in
 </figure>
 
 **Description:**
-I have installed two 9-axis IMUs. One was installed at the side of the hand, and one was installed at the side of the forearm. I did this to be able to differentiate linear movement from wrist movement. If there was a difference between the two sensors, they would need to have moved their wrist, and if not, they just moved their arm linearly. I wanted to ensure that the data was easily accessible. I began searching for options to create a website. I found a website that would be able to do that called adafruit.io. I made the website include an output for each value with timestamps and a light that detects if the user is bending their wrist at a bad angle or not. I will also eventually add the vibration sensors to help people use it without the website. The website will only be used for long-term data collection and the identification of long-term improvement. I made the website public, making it so anyone can access it with the link and see the data.
+I have installed two 9-axis IMUs. One was installed at the side of the hand, and one was installed at the side of the forearm. I did this to be able to differentiate linear movement from wrist movement. First, I would translate the acceleration, angular speed, and magnometry into roll, pitch, and yaw using the Madgwick filter. If there was a difference between the two sensors' rolls, pitches, and yaws, they would need to have moved their wrist, and if not, they just moved their arm linearly. I wanted to ensure that the data was easily accessible. I began searching for options to create a website. I found a system that would be able to do that called adafruit.io. I made the website include an output for each value with timestamps and a light that detects if the user is bending their wrist at a bad angle or not. I will also eventually add the vibration sensors to help people use it without the website. The website will only be used for long-term data collection and the identification of long-term improvement. I made the website public, making it so anyone can access it with the link and see the data.
 
 **Challenges:**
 When installing the IMUs, I had to find a way to differentiate the two sensors' data from each other. To do this, I had them both go into the same port with different filters and variables. Whenever I would send data to the website, it would exceed the limit for how much data could be processed. Due to this, Adafruit IO would ban me for a short period of time. To solve this, I used millis(), which counts how much time has elapsed since the code started running. By doing this, I was able to identify how to make it use the most amount of data I could without getting banned. I made it so that the data sends every 12 seconds to the website. This was alright because it is only for long-term data tracking, while the buzzers and vibrators help with short-term and immediately alerting the user.
