@@ -43,11 +43,16 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 <figure>
   <img src="FinalCircuit">
-  <figcaption> This is an image of my circuit with two new accelerometers with the previously existing flex sensor wiring.</figcaption><br/>
+  <figcaption> This is an image of my circuit with two new accelerometers, with the previously existing flex sensor wiring.</figcaption><br/>
+</figure>
+
+<figure>
+  <img src="Explaining_angle">
+  <figcaption> This is a diagram on how to find the angle between the two accelerometers.</figcaption><br/>
 </figure>
 
 **Description:**
-I have installed two 9-axis IMUs. One was installed at the side of the hand, and one was installed at the side of the forearm. I did this to be able to differentiate linear movement from wrist movement. If there was a difference between the two sensors, they would need to have moved their wrist, and if not, they just moved their arm along. I wanted to ensure that the data was easily accessible. I began searching for options to create a website. I found a website that would be able to do that called adafruit.io. I made the website include an output for each value with timestamps and a light that detects if the user is bending their wrist at a bad angle or not. I will also eventually add the vibration sensors to help people use it without the website. The website will only be used for long-term data collection and the identification of long-term improvement. I made the website public, making it so anyone can access it with the link and see the data.
+I have installed two 9-axis IMUs. One was installed at the side of the hand, and one was installed at the side of the forearm. I did this to be able to differentiate linear movement from wrist movement. If there was a difference between the two sensors, they would need to have moved their wrist, and if not, they just moved their arm linearly. I wanted to ensure that the data was easily accessible. I began searching for options to create a website. I found a website that would be able to do that called adafruit.io. I made the website include an output for each value with timestamps and a light that detects if the user is bending their wrist at a bad angle or not. I will also eventually add the vibration sensors to help people use it without the website. The website will only be used for long-term data collection and the identification of long-term improvement. I made the website public, making it so anyone can access it with the link and see the data.
 
 **Challenges:**
 When installing the IMUs, I had to find a way to differentiate the two sensors' data from each other. TO do this, I had them both go into the same port with different filters and variables. Whenever I would send data to the website, it would exceed the limit for how much data could be processed. Due to this, Adafruit IO would ban me for a short period of time. To solve this, I used millis(), which counts how much time has elapsed since the code started running. By doing this, I was able to identify how to make it use the most amount of data I could without getting banned. I made it so that the data sends every 12 seconds to the website. This was alright because it is only for long-term data tracking, while the buzzers and vibrators help with short-term and immediately alerting the user.
