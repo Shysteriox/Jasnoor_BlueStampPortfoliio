@@ -29,10 +29,10 @@ Anything between these symbols will not render on the published site
 <iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 **Description:**
-I have added vibration motors, a 16-LED ring, and an arm sleeve. The vibration motors and the LED ring will be used in a way to assist the user in identifying where the issue is coming from. The vibration motors will buzz on that side of the hand, and the LED ring will point in the direction of the issue. The arm sleeve is used to move the parts onto the arm, where it feels less heavy on the user's wrist, and to make it not all clumped together.
+I have added vibration motors, a 16-LED ring, and an arm sleeve. The vibration motors and the LED ring will be used in a way to assist the user in identifying where the issue is coming from. The vibration motors will buzz on that side of the hand, and the LED ring will point in the direction of the issue. I've split the directions into left, right, up, and down in the code by checking if the difference is positive or negative. The arm sleeve is used to move the parts like the ESP-32 and the breadboard onto the arm, where it feels less heavy on the user's wrist, and to keep them not all clumping together.
 
 **Challenges:**
-
+Some challenges I faced were having to figure out how to split the directions into left, right, up, and down. This was because I had to break apart the code I already had, rewriting the whole piece. 
 
 **Next Steps:**
 
