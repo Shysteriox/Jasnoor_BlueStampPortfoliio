@@ -30,18 +30,18 @@ Anything between these symbols will not render on the published site
 
 <figure>
   <img src="./RealFinalCircuit">
-  <figcaption> This is an image of my final circuit with the LED ring, and the vibrators.</figcaption><br/>
+  <figcaption> This is an image of my final circuit with the new 16-bit LED ring.</figcaption><br/>
 </figure>
 
 
 **Description:**
-I have added vibration motors, a 16-LED ring, and an arm sleeve. The vibration motors and the LED ring will be used in a way to assist the user in identifying where the issue is coming from. The vibration motors will buzz on that side of the hand, and the LED ring will point in the direction of the issue. I've split the directions into left, right, up, and down in the code by checking if the difference is positive or negative. The arm sleeve is used to move the parts like the ESP-32 and the breadboard onto the arm, where it feels less heavy on the user's wrist, and to keep them not all clumping together.
+e
 
 **Challenges:**
-Some challenges I faced were having to figure out how to split the directions into left, right, up, and down. This was because I had to break apart the code I already had, rewriting the whole piece. 
+e 
 
 **Next Steps:**
-
+e
 
 
 
@@ -59,7 +59,7 @@ I have added vibration motors, a 16-LED ring, and an arm sleeve. The vibration m
 Some challenges I faced were having to figure out how to split the directions into left, right, up, and down. This was because I had to break apart the code I already had, rewriting the whole piece. 
 
 **Next Steps:**
-
+e
 
 For your final milestone, explain the outcome of your project. Key details to include are:
 - What you've accomplished since your previous milestone
