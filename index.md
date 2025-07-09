@@ -35,7 +35,7 @@ Anything between these symbols will not render on the published site
 
 
 **Description:**
-e
+I have added vibration motors, a 16-LED ring, and an arm sleeve. The vibration motors and the LED ring will be used in a way to assist the user in identifying where the issue is coming from. The vibration motors will buzz on that side of the hand, and the LED ring will point in the direction of the issue. I've split the directions into left, right, up, and down in the code by checking if the difference is positive or negative. The arm sleeve is used to move the parts like the ESP-32 and the breadboard onto the arm, where it feels less heavy on the user's wrist, and to keep them not all clumping together.
 
 **Challenges:**
 e 
@@ -43,7 +43,7 @@ e
 **Next Steps:**
 e
 
-
+-->
 
 # Final Milestone
 
@@ -53,22 +53,14 @@ e
 <iframe width="560" height="315" src="https://www.youtube.com/embed/yYjfWydUv3U?si=jOZR8Qo9ouZ5wxmE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 **Description:**
-I have added vibration motors, a 16-LED ring, and an arm sleeve. The vibration motors and the LED ring will be used in a way to assist the user in identifying where the issue is coming from. The vibration motors will buzz on that side of the hand, and the LED ring will point in the direction of the issue. I've split the directions into left, right, up, and down in the code by checking if the difference is positive or negative. The arm sleeve is used to move the parts like the ESP-32 and the breadboard onto the arm, where it feels less heavy on the user's wrist, and to keep them not all clumping together.
+I have added vibration motors. The vibration motors will be used in a way to assist the user in identifying where the issue is coming from. The vibration motors will buzz on that side of the hand. I've split the directions into left, right, up, and down in the code by checking if the difference is positive or negative. I also sewed everything onto the glove to secure it in place. To do this, I've needed to figure out how the accelerometers work on their sides, as I have been testing on their fronts. Due to this, figuring out how to find the difference in left and rigth has just not been working.
 
 **Challenges:**
-Some challenges I faced were having to figure out how to split the directions into left, right, up, and down. This was because I had to break apart the code I already had, rewriting the whole piece. 
+Some challenges I faced were having to figure out how to split the directions into left, right, up, and down. This was because I had to break apart the code I already had, rewriting the whole piece. Sewing everything was also very difficult and took a long time since I kept poking myself with the needles. Another challenge I had was that the accelerometers didn't work the way that I expected when tilted on their side. I assumed, since the sensor was on the side, the directions would be tilted to the right. However, the accelerometer uses gravity to find where downwards is, so it doesn't change its values depending on its orientation.
 
 **Next Steps:**
-e
+Next, I will have to add my modifications.
 
-For your final milestone, explain the outcome of your project. Key details to include are:
-- What you've accomplished since your previous milestone
-- What were your biggest challenges and triumphs at BSE
-- A summary of key topics you learned about
-- What do you hope to learn in the future after everything you've learned at BSE
-
-
--->
 
 # Second Milestone
 
